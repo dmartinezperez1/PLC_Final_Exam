@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main(void) {
+    j = -3;
+  for (i = 0; i < 3; i++) {
+	  int k = j + 2;
+  	if (k == 3) {
+  	} else if (k == 2) {
+	  	j--; 
+  	} else if (k == 0) {	
+  		j += 2;
+  	} else {
+  		j = 0;
+  	}
+  	if (j <= 0) 
+  		j = 3 - i;
+  }
+  return 0;
+}
