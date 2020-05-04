@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+void main(){
+  j = -3;
+  for (i = 0; i < 3; i++) {
+    int k = j + 2;
+  	if (k == 3) {
+	   	j--;
+	  	goto: func1;
+  	}	
+  	if (k == 2) {	
+  		j--; 
+  		goto: func1;
+  	}
+  	if (k == 0) {
+  		j += 2; 
+  		goto: func1;
+  	}
+  	j = 0;
+
+  	func1: 
+  	if (j > 0) goto: func2;
+  	j = 3 - i;
+   }
+func2:
+
+}
